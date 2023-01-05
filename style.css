@@ -1,5 +1,11 @@
 .container{
-    display: flex;
+    border: solid;
+    background-color: rgb(220,220,220);
 }
-.container div{
+.container ul{
+    list-style: none;
+    overflow: hidden;
+}
+.container li{
+    float: right;
 }
